@@ -21,6 +21,12 @@ footer {
     clear: both;
 }
 
+.social{
+    margin:1%;
+    height:150;
+    width:200px;
+}
+
 /*----------Homepage----------*/
 .controlarCards {
     display: flex;
@@ -42,19 +48,18 @@ footer {
 
 .botaoCard {
     text-align: center;
-    margin-top: 1%;
-    margin-bottom: 5%;
+    padding: 1%;
 }
 
 .imgCard {
     justify-content: center;
-    padding: 10px;
+    padding: 1%;
     background-color: rgb(33, 37, 41);
     border-width: 0;
 }
 
 .txtCard {
-    padding: 10px;
+    padding: 1%;
 }
 
 /*----------Paginas Editar----------*/
@@ -66,7 +71,7 @@ footer {
 }
 
 .fonte-tabela {
-    color: #eb9a0e;
+    color: #ffc20b;
 }
 
 .pesquisar {
@@ -80,7 +85,7 @@ footer {
 
 /*----------Paginas Cadastrar----------*/
 .titulo {
-    color: #eb9a0e;
+    color: #ffc20b;
     text-align: center;
     font-size: x-large;
     font-weight: bold;

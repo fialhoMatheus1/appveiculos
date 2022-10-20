@@ -21,10 +21,27 @@ Route::get('/', function () {
 });
 */
 
+//homepage:
 Route::get('/',[HomeController::class,'MostrarHome'])->name('home');
+
+//caminhoes:
 Route::get('/editar-caminhao',[CaminhaoController::class,'MostrarEditarCaminhao'])->name('editar-caminhao');
 Route::get('/cadastrar-caminhao',[CaminhaoController::class,'FormularioCadastro'])->name('cadastrar-caminhao');
 Route::post('/cadastrar-caminhao',[CaminhaoController::class,'SalvarBanco'])->name('salvar-banco');
+
+//carros:
 Route::get('/editar-carro',[CarroController::class,'MostrarEditarCarro'])->name('editar-carro');
 Route::get('/cadastrar-carro',[CarroController::class,'FormularioCadastroCarro'])->name('cadastrar-carro');
 Route::post('/cadastrar-carro',[CarroController::class,'SalvarBancoCarro'])->name('salvar-banco-carro');
+
+//editar caminhao:
+Route::get('/alterar-carro',[CaminhaoController::class,'MostrarAlterarCaminhao'])->name('alterar-caminhao');
+
+//editar carro:
+
+
+//deletar caminhao:
+Route::delete('/editar-caminhao/{registrosCaminhoes}',[CaminhaoController::class,'ApagarBancoCaminhao'])->name('apagar-caminhao');
+
+//deletar carro:
+Route::delete('/editar-carro/{registrosCarros}',[CarroController::class,'ApagarBancoCarro'])->name('apagar-carro');

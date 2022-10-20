@@ -60,8 +60,10 @@
     <div>
       <img src="{{'/img/logoFooter.png'}}" alt="">
     </div>
-    <br>
-    <p>Motor Cars© 2022 Loja de Veículos. Todos os direitos reservados.</p>
+    <p>Motor Cars© 2022. Todos os direitos reservados.</p>
+    <div>
+      <img class="social" src="{{'/img/social.png'}}" alt="">
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

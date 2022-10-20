@@ -17,6 +17,14 @@ class CarroController extends Controller
         return view('editarCarro', ['registrosCarro' => $dadosCarro]);
     }
 
+    public function ApagarBancoCarro(Carro $registrosCarros){
+        //deletar os dados do caminhão, salvos na variavel local carro
+        //dd($registrosCarros);
+        $registrosCarros->delete();
+        //efetua a exclusao e redireciona de volta para  pagina de edicao
+        return Redirect::route('editar-carro');
+    }
+
     public function SalvarBancoCarro(Request $request){
         $dadosCarro = $request->validate([
             'modelos' => 'string|required',
