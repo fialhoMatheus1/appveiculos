@@ -24,9 +24,9 @@ class CaminhaoController extends Controller
 
     public function MostrarAlterarCaminhao(Caminhao $registrosCaminhoes)
     {
-        //
+        //comentario
         
-        //
+        //comentario
         return view('alterarCaminhao', ['registrosCaminhoes' => $registrosCaminhoes]);
     }
 

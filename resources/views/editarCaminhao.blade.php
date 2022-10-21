@@ -14,7 +14,7 @@
   </div>
 
   <div>
-    <table class="table table-bordered table-dark">
+    <table class="table table-striped table-dark">
       <thead>
         <tr>
           <th class="fonte-tabela" scope="col">Código</th>
@@ -36,6 +36,7 @@
           <td>{{$registrosCaminhoes->ano}}</td>
           <td>{{$registrosCaminhoes->cor}}</td>
           <td>{{$registrosCaminhoes->valor}}</td>
+
           <td>
             <a href="{{route('alterar-caminhao', $registrosCaminhoes->id)}}">
               <button type="button" class="btn btn-info">
@@ -45,6 +46,7 @@
               </button>
             </a>
           </td>
+          
           <td>
             <form method="Post" action="{{route('apagar-caminhao', $registrosCaminhoes->id)}}">
               @method('delete')

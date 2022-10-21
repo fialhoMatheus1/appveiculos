@@ -1,4 +1,4 @@
-/*----------Design geral do site----------*/
+/*------------------------------Design geral do site------------------------------*/
 header {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -27,7 +27,7 @@ footer {
     width:200px;
 }
 
-/*----------Homepage----------*/
+/*------------------------------Homepage------------------------------*/
 .controlarCards {
     display: flex;
     justify-content: center;
@@ -62,7 +62,7 @@ footer {
     padding: 1%;
 }
 
-/*----------Paginas Editar----------*/
+/*------------------------------Paginas Editar------------------------------*/
 .titulo-lista {
     color: black;
     text-align: center;
@@ -81,9 +81,10 @@ footer {
 .controlar-edicao {
     width: 100%;
     min-height: 100vh;
+    justify-content: center;
 }
 
-/*----------Paginas Cadastrar----------*/
+/*------------------------------Paginas Cadastrar-----------------------------*/
 .titulo {
     color: #ffc20b;
     text-align: center;

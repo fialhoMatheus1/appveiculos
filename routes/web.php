@@ -35,7 +35,7 @@ Route::get('/cadastrar-carro',[CarroController::class,'FormularioCadastroCarro']
 Route::post('/cadastrar-carro',[CarroController::class,'SalvarBancoCarro'])->name('salvar-banco-carro');
 
 //editar caminhao:
-Route::get('/alterar-carro',[CaminhaoController::class,'MostrarAlterarCaminhao'])->name('alterar-caminhao');
+Route::get('/alterar-caminhao/{registrosCaminhoes}',[CaminhaoController::class,'MostrarAlterarCaminhao'])->name('alterar-caminhao');
 
 //editar carro:
 
