@@ -1,8 +1,6 @@
 @extends('padrao')
 @section('content')
 <section class="container m-3 controlar-edicao">
-  <p class="titulo-lista">Gerenciar Carros</p>
-
   <form method="get" action="/editar-carro">
     <div class="pesquisar">
       <div class="input-group mb-3">
