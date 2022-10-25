@@ -30,7 +30,6 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="{{'cadastrar-caminhao'}}">Cadastrar</a></li>
-                <li><a class="dropdown-item" href="{{'#'}}">Buscar</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
@@ -43,7 +42,6 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="{{'cadastrar-carro'}}">Cadastrar</a></li>
-                <li><a class="dropdown-item" href="{{'#'}}">Buscar</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
