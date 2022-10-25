@@ -21,10 +21,10 @@ footer {
     clear: both;
 }
 
-.social{
-    margin:1%;
-    height:150;
-    width:200px;
+.social {
+    margin: 1%;
+    height: 150;
+    width: 200px;
 }
 
 /*------------------------------Homepage------------------------------*/
@@ -76,6 +76,7 @@ footer {
 
 .pesquisar {
     float: right;
+    margin: 2%;
 }
 
 .controlar-edicao {

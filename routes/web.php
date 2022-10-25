@@ -36,9 +36,11 @@ Route::post('/cadastrar-carro',[CarroController::class,'SalvarBancoCarro'])->nam
 
 //editar caminhao:
 Route::get('/alterar-caminhao/{registrosCaminhoes}',[CaminhaoController::class,'MostrarAlterarCaminhao'])->name('alterar-caminhao');
+Route::put('/editar-caminhao/{registrosCaminhoes}', [CaminhaoController::class, 'AlterarBancoCaminhao'])->name('alterar-banco-caminhao');
 
 //editar carro:
-
+Route::get('/alterar-carro/{registrosCarros}',[CarroController::class,'MostrarAlterarCarro'])->name('alterar-carro');
+Route::put('/editar-carro/{registrosCarros}', [CarroController::class, 'AlterarBancoCarro'])->name('alterar-banco-carro');
 
 //deletar caminhao:
 Route::delete('/editar-caminhao/{registrosCaminhoes}',[CaminhaoController::class,'ApagarBancoCaminhao'])->name('apagar-caminhao');
